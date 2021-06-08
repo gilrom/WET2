@@ -3,10 +3,11 @@
 
 #include <exception>
 
-namespace wet1
+namespace wet2
 {
     class Exception : public std::exception {};
     class EmptyTree : public Exception {};
     class NotFound : public Exception {};
+    class NotExist : public Exception {};
 }
 #endif

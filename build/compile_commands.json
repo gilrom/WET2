@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/gil.romano/WET2/build",
+  "command": "/usr/bin/g++    -std=c++11 -Wall -g -g   -o CMakeFiles/hw2_wet.dir/test_main.cpp.o -c /home/gil.romano/WET2/test_main.cpp",
+  "file": "/home/gil.romano/WET2/test_main.cpp"
+}
+]

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gil.romano/WET2/UnionFind.h
+dynamic_array.h
+/home/gil.romano/WET2/dynamic_array.h
+exceptions.h
+/home/gil.romano/WET2/exceptions.h
+
+/home/gil.romano/WET2/dynamic_array.h
+
+/home/gil.romano/WET2/exceptions.h
+exception
+-
+
+/home/gil.romano/WET2/test_main.cpp
+UnionFind.h
+/home/gil.romano/WET2/UnionFind.h
+iostream
+-
+

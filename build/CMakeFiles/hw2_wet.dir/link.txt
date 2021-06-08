@@ -1,0 +1,1 @@
+/usr/bin/g++  -std=c++11 -Wall -g -g  -rdynamic CMakeFiles/hw2_wet.dir/test_main.cpp.o  -o hw2_wet 
