@@ -67,7 +67,7 @@ namespace wet2
     template <class T, class MergeFunc>
     class UnionFind{
     private:
-        static int organNum;
+        int organNum;
         DynamicArray<Organ*> organs;
         DynamicArray<Group<T>*> groups;
         /*An object func that merges data and return the merged data*/
@@ -86,7 +86,7 @@ namespace wet2
 
     public:
         /*ctor*/
-        UnionFind() : organs(), groups(), merge() {}
+        UnionFind() : organNum(0), organs(), groups(), merge(){}
 
         /*dtor (o(n))*/
         ~UnionFind(){
@@ -165,8 +165,5 @@ namespace wet2
             return *groups[group_num];
         }
     };
-
-    template <class T, class MergeFunc>
-    int UnionFind<T, MergeFunc>::organNum = 0;
 }
 #endif
